@@ -9,16 +9,10 @@ function logIn() {
 
     console.log(getDataArr)
 
-    let check = false;
+    let Auth = getDataArr.find( (e)=> e.username === username && e.password === password) 
 
-    let Auth = getDataArr.filter(function (e) {
-        if (e.username === username && e.password === password) {
-            check = true;
-            return ;
-        }
-    })
     
-    if(check){
+    if(Auth){
         alert("Login successful")
         window.location.href = "movies.html"
     }

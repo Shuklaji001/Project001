@@ -12,6 +12,7 @@ body{
     grid-template-rows: repeat(1,1fr);
     width: 37%;
     margin: auto;
+    margin-top: 205px;
     padding: 15px;
     box-shadow: rgba(16,11,46,0.15) 0px 48px 100px 0px;
     background-color: aliceblue;
@@ -29,6 +30,7 @@ body{
   }
 
   input[type="text"],
+  input[type="password"],
   input[type="number"],
   textarea {
     padding: 10px;
@@ -45,10 +47,11 @@ body{
 
   button:hover {
     background-color: rgb(87, 87, 218);
+    color: white;
   }
 
   img {
     display: block;
-    width: 10%;
-    margin: 30px auto;
+    width: 34%;
+    margin:  auto;
   }

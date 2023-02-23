@@ -10,6 +10,7 @@ body{
     grid-template-rows: repeat(1, 1fr);
     width: 37%;
     margin: auto;
+    margin-top: 180px;
     padding: 15px;
     box-shadow: rgba(17, 11, 49, 0.15) 0px 48px 100px 0px;
     background-color: aliceblue;
@@ -47,6 +48,6 @@ body{
 
   img{
       display: block;
-      width: 10%;
-    margin: 30px auto;
+      width: 34%;
+    margin:  auto;
   }
